@@ -1,8 +1,8 @@
 import * as maplibregl from "https://esm.sh/maplibre-gl";
 
 const map = new maplibregl.Map({
-    container: 'mijnkaart', // container id
-    style: 'https://demotiles.maplibre.org/style.json', // style URL
-    center: [0, 0], // starting position [lng, lat]
-    zoom: 1 // starting zoom
+    container: 'mijnkaart',
+    style: 'https://tiles.openfreemap.org/styles/liberty',
+    center: [5.04781, 51.64956],
+    zoom: 15
 });
